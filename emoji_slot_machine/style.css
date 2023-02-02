@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: red;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  padding: 1em 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 9px;
+  background: gray;
+  color: whitesmoke;
+  text-shadow: 0 0 2px black;
+  box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.emoji-slots-game {
+  padding-left: 0;
+  min-width: 90%;
+  min-height: 60%;
+  display: flex;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 12px solid gold;
+}
+
+.emoji-slots-game li {
+  list-style-type: none;
+  font-size: 3em;
+  display: flex;
+  flex-basis: 33.3333333%;
+  justify-content: center;
+}
